@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📝 To-Do App</h1>
+
+    <div class="list-section">
+      <input id="new-list" placeholder="New List Name">
+      <button onclick="addList()">Add List</button>
+      <div id="lists"></div>
+    </div>
+
+    <div id="task-section" class="task-section hidden">
+      <h2 id="list-title">Select a List</h2>
+      <input id="task-title" placeholder="Task Title">
+      <input type="date" id="task-date">
+      <input type="time" id="task-time">
+      <button onclick="addTask()">Add Task</button>
+      <ul id="tasks"></ul>
+      <button onclick="completeSelectedTasks()" id="complete-selected" class="hidden">Complete Selected Tasks</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
