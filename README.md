@@ -1,6 +1,9 @@
 # SCT_WD_4
 TO-DO WEB APP
 
+Link of the App:
+https://komal869.github.io/SCT_WD_4/
+
 In this project, I have develop a basic to-do app that enables user to add maintain tasks.
 
 Users can add/organize items in lists.
